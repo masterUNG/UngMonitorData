@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "405799925587",
+    "project_id": "ungmonitordata",
+    "storage_bucket": "ungmonitordata.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405799925587:android:fc345735c8ca09def013a6",
+        "android_client_info": {
+          "package_name": "com.masterung.ungmonitordata"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAejb23R9wdagZTbGOa7ty9ZNhAvhSs5rs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
