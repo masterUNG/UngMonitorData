@@ -4,9 +4,9 @@ class AppService {
   Future<void> processSentOTP({required String phoneNumber}) async {
     String userPhoneNumber = phoneNumber;
 
-    userPhoneNumber = '+66 ${userPhoneNumber.substring(1)}';
+    userPhoneNumber = '+66${userPhoneNumber.substring(1)}';
 
-    print('userPhoneNumber ---> $userPhoneNumber');
+    print('##22oct userPhoneNumber ---> $userPhoneNumber');
 
     await FirebaseAuth.instance.verifyPhoneNumber(
       phoneNumber: userPhoneNumber,
@@ -15,7 +15,7 @@ class AppService {
       verificationFailed: (error) {},
       codeSent: (verificationId, forceResendingToken) {
         String verId = verificationId;
-        print('verId ====> $verId');
+        print('##22oct verId ====> $verId');
       },
       codeAutoRetrievalTimeout: (verificationId) {},
     );

@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" 
 package="com.masterung.ungmonitordata">
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:label="ungmonitordata"
         android:name="${applicationName}"
